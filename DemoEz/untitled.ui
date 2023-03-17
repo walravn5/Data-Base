@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>сотрудники</string>
+  </property>
+  <widget class="QTableWidget" name="twStaffs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>531</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>215</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leFio"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>ФИО:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QSpinBox" name="spAge"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Пол:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QRadioButton" name="rbMale">
+       <property name="text">
+        <string>муж</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>жен</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Возраст:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Телефон:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lePhone"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Почта:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="leEmail"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Должность:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QComboBox" name="cbPost"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Стаж:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QSpinBox" name="spExp"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>30</y>
+     <width>82</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="pbOpen">
+    <property name="text">
+     <string>Открыть</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbInsert">
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbOpen_3">
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
